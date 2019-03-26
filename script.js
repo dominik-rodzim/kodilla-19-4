@@ -11,18 +11,12 @@ multiply = (x, y = 1) => x * y;
 
 //3 
 
-/* 
 
-MOJE PIERWSZE PODEJŚCIE - zakończone failem
-sum = 0
-
-average = (...args) => args.forEach(arg => arg += sum) / args.length;
+average = (...args) => args.reduce((previousValue, currentValue) => previousValue += currentValue) / args.length;
 
 const av = average(1, 2, 3)
 
 console.log(av)
-
-*/
 
 
 //4 
